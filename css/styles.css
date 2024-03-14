@@ -131,7 +131,6 @@ img {
 .header-contact-item {
   padding-top: 24px;
   padding-bottom: 24px;
-  
 }
 
 .header-contact-link {
@@ -319,6 +318,10 @@ img {
   gap: 24px;
   margin-right: 16px;
   margin-left: 16px;
+}
+
+.team-social-icon{
+  fill: #f4f4fd;
 }
 
 .team-social-link, 
