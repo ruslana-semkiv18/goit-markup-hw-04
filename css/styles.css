@@ -149,7 +149,12 @@ img {
   color: #404bbf;
 }
 
-.header-menu-link::after {
+.active {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active::after {
   content: "";
   border-radius: 2px;
   height: 4px;
@@ -157,12 +162,10 @@ img {
   width: 100%;
   bottom: -1px;
   left: 0;
+  background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-menu-link:active::after {
-  background-color: #404bbf;
-}
 
 /*-------Hero-------*/
 
